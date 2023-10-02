@@ -1,0 +1,554 @@
+html{
+    background-color: black;
+}
+/* Forme du cv */
+body{
+    margin: 1% 25%;
+    font-family: 'Roboto', sans-serif;
+}
+#fond{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(25,25,25);
+    padding-bottom: 80%;
+    animation: ombre 5s infinite;
+}
+@keyframes ombre {
+    50% {box-shadow: 1px 1px 100px 10px rgb(151,23,235);}
+  }
+#blocblanc{
+    position: absolute;
+    width: 60%;
+    height: 75%;
+    bottom: 0%;
+    background-color: white;
+    border-radius: 0% 50px 0% 0%;
+    box-shadow: 5px -5px 10px ;
+}
+#blocblanc2{
+    position: absolute;
+    background-color: white;
+    width: 5%;
+    height: 75%;
+    bottom: 0%;
+    right: 0%;
+    border-radius: 40px 0% 0% 0%;
+    box-shadow: -5px -5px 10px ;
+}
+#trait{
+    position: inherit;
+    background-color: rgb(166,166,166);
+    width: 90%;
+    height: 2%;
+    margin-top: 5%;
+}
+#trait2{
+    position: inherit;
+    background-color: rgb(166,166,166);
+    width: 90%;
+    height: 1%;
+    margin-top: 10%;
+}
+#trait3{
+    position: inherit;
+    background-color: rgb(166,166,166);
+    width: 90%;
+    height: 2%;
+    margin-top: 5%;
+}
+.light{
+    border-top: 2px solid  rgb(166,166,166);
+    width: 90%;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Haut du cv */
+#persona{
+    position: absolute;
+    overflow: hidden;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+#persona img{
+    width: 31%;
+    border: 10px solid rgb(151,23,235);
+    border-radius: 50%;
+}
+@keyframes moi{
+    50%{box-shadow: 5px 5px 40px 10px rgb(151,23,235) ;}
+} 
+#persona img:hover{
+    animation: moi 2s infinite;
+}
+#hugo{
+    position: absolute;
+    left: 45%;
+    top: 7%;
+}
+#hugo h1{
+    font-size: 4vw;
+    color: white;
+}
+
+/* Profil */
+#profil{
+    position: absolute;
+    top: 5%;
+    left: 4%;
+}
+#profil img{
+    width: 7%;
+}
+#profil h2{
+    float: right;
+    padding-right: 77%;
+    font-size: 1vw;
+
+}
+#profil p{
+    margin-top: 5%;
+}
+/* Expériences Professionnelles */
+#expro{
+    position: absolute;
+    top: 30%;
+    left: 4%;
+}
+#expro img{
+    width: 7%;
+}
+#expro h2{
+    float: right;
+    padding-right: 50%;
+    font-size: 1vw;
+}
+/* Formations */
+#formation{
+    position: absolute;
+    top: 72%;
+    left: 4%;
+}
+#formation img{
+    width: 7%;
+}
+#formation h2{
+    float: right;
+    padding-right: 65%;
+    font-size: 1vw;
+
+}
+
+/* TEXTES DU SITE */
+.soustitre{
+    color: rgb(151,23,235);
+    margin-top: 5%;
+    font-size: 1.1vw;
+}
+h4{
+    margin-top: -4%;
+    font-size: 1vw;
+}
+.description{
+    margin-top: -5%;
+    font-size: 1vw;
+}
+li{
+    margin-bottom: -3%;
+    font-size: 1vw;
+}
+
+/* Côté droit */
+.formrect{
+    position: absolute;
+    background-color: rgb(151,23,235);
+    right: 0%;
+    width: 20%;
+    height: 3%;
+    right: 21%;
+    z-index: +1;
+}
+#rect{
+    top: 30%;
+}
+#rect2{
+    top: 52%;
+}
+.contacts{
+    position: relative;
+    display: flex;
+    left: 10%;
+    margin-bottom: 10%;
+}
+.txtcontact{
+    color: white;
+    float: right;
+    font-size: 1vw;
+}
+.logo_contact{
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+#rect3{
+    top: 73%;
+}
+#rect3 li{
+    color: white;
+}
+.hobbies{
+    position: relative;
+    display: flex;
+    left: 10%;
+    margin-bottom: 5%;
+}
+.txthobbies{
+    color: white;
+    float: right;
+    font-size: 1vw;
+}
+.logo_hobbies{
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+#rect4{
+    top: 84%;
+}
+.catg{
+    text-align: center;
+    font-size: 1.4vw;
+    margin-top: -1%;
+    color: white;
+}
+#liste{
+    color: white;
+}
+
+#xpbar{
+    position: relative;
+    width: 15%;
+    left: 70%; 
+}
+.cool{
+    background-color: white;
+    margin-bottom: 10%;
+}
+.inner{
+    height: 10%;
+    background-color: rgb(151,23,235) ;
+    width: 90%;
+}
+
+
+.creole{
+    width: 100%;
+}
+.psai{
+    width: 60%;
+}
+.vbasas{
+    width: 25%;
+}
+.wordpress{
+    width: 60%;
+}
+.sql{
+    width: 80%;
+}
+.php{
+    width: 50%;
+}
+.jquery{
+    width: 50%;
+}
+.htmlcssjs{
+    width: 80%;
+}
+.wp{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* lol aniation */
+
+#slide{
+    position: fixed;
+    z-index: -2;
+    left: -100%;
+    width: 30%;
+    height: 1%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px 10px rgb(151,23,235) ;
+    animation: slide 2s infinite;
+}
+@keyframes slide{
+    100%{
+        left: 100%;
+    }
+}
+
+#slide2{
+    position: fixed;
+    z-index: -2;
+    top: 30%;
+    right: -100%;
+    width: 30%;
+    height: 1%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px 10px rgb(151,23,235) ;
+    animation: slide2 2s infinite;
+    animation-delay: .25s;
+}
+@keyframes slide2{
+    100%{
+        right: 100%;
+    }
+}
+
+#slide3{
+    position: fixed;
+    z-index: -2;
+    top: 60%;
+    left: -100%;
+    width: 30%;
+    height: 1%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px 10px rgb(151,23,235) ;
+    animation: slide3 2s infinite;
+    animation-delay: .5s;
+}
+@keyframes slide3{
+    100%{
+        left: 100%;
+    }
+}
+
+#slide4{
+    position: fixed;
+    z-index: -2;
+    top: 90%;
+    right: -100%;
+    width: 30%;
+    height: 1%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    box-shadow: 5px 5px 40px 10px rgb(151,23,235) ;
+    animation: slide4 2s infinite;
+    animation-delay: .75s;
+}
+@keyframes slide4{
+   100%{
+        right: 100%;
+    }
+}
+
+
+#modifier button{
+    position: fixed;
+    z-index: -1;
+    left: 25%;
+    border: 2px solid white;
+    text-decoration: none;
+    animation: boutton 1s infinite;
+}
+@keyframes boutton{
+    50%{
+        left: 21%;
+    }
+}
+#modifier button:hover{
+    background-color: rgb(151,23,235);
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+} 
+
+#star{
+    position: fixed;
+    z-index: -2;
+    left: 5%;
+    bottom: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star 5s infinite;
+    animation-delay: 1s;
+}
+@keyframes star{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star2{
+    position: fixed;
+    z-index: -2;
+    left: 10%;
+    top: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star2 5s infinite;
+    animation-delay: 3s;
+}
+@keyframes star2{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star3{
+    position: fixed;
+    z-index: -2;
+    left: 20%;
+    top: 50%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star3 5s infinite;
+    animation-delay: 5s;
+}
+@keyframes star3{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star4{
+    position: fixed;
+    z-index: -2;
+    right: 5%;
+    bottom: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star4 5s infinite;
+    animation-delay: 7s;
+}
+@keyframes star4{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star5{
+    position: fixed;
+    z-index: -2;
+    right: 10%;
+    top: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star5 5s infinite;
+    animation-delay: 9s;
+}
+@keyframes star5{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star6{
+    position: fixed;
+    z-index: -2;
+    right: 20%;
+    top: 50%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star6 5s infinite;
+    animation-delay: 10s;
+}
+@keyframes star6{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star7{
+    position: fixed;
+    z-index: -2;
+    bottom: 10%;
+    left: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star7 5s infinite;
+    animation-delay: 8s;
+}
+@keyframes star7{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star8{
+    position: fixed;
+    z-index: -2;
+    bottom: 10%;
+    right: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star8 5s infinite;
+    animation-delay: 6s;
+}@keyframes star8{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star9{
+    position: fixed;
+    z-index: -2;
+    right: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star9 5s infinite;
+    animation-delay: 4s;
+}
+@keyframes star9{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+#star10{
+    position: fixed;
+    z-index: -2;
+    left: 20%;
+    background-color: rgb(151,23,235);
+    border-radius: 50%;
+    animation: star10 5s infinite;
+    animation-delay: 2s;
+}
+@keyframes star10{
+    50%{
+        box-shadow: 10px 10px 40px 10px white ;
+    }
+}
+
